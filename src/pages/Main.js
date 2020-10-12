@@ -1,5 +1,6 @@
 import React from 'react'
 import { Layout, Card, BannerCard } from '../components'
+
 import car from '../assets/car.jpg'
 
 const titles = ['Мои счета', 'Шаблоны операции']

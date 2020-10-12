@@ -114,9 +114,10 @@ body {
 }
 
 .banner-card {
-  height: 200px;
-  margin: 10px auto;
-  background-color: #d4d4d4;
+  // height: 200px;
+  // margin: 10px auto;
+  // background-color: #d4d4d4;
+  display: none;
 }
 
 .banner-footer {
@@ -128,6 +129,15 @@ body {
   position: relative;
   top: -8px;
   left: 10px;
+}
+
+@media (min-width: 1200px) {
+  .banner-card {
+    height: 200px;
+    margin: 10px auto;
+    background-color: #d4d4d4;
+    display: block;
+  }
 }
 
 /* about page css */
